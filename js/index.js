@@ -34,7 +34,11 @@ for (let i=hacker1.length-1; i>=0; i--){
 }console.log(reverseName);
 
 // Iteration 3.3 Lexicographic order
-
+if(hacker1<hacker2){
+    console.log(`The driver's name goes first.`)} 
+    else if (hacker1>hacker2)
+    {console.log(`Yo, the navigator goes first definitely.`)} 
+    else{console.log(`wrong`)}
 
 // Bonus 1: Palindromes
 
