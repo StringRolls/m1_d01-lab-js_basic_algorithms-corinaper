@@ -18,9 +18,20 @@ if (hacker1.length>hacker2.length){
 }
 
 // Iteration 3: Loops
-// Iteration 3.1 'Name' to 'N A M E'
+let spacedOut = "";
+for (let i=0; i<hacker1.length; i++){
+    // Iteration 3.1 'Name' to 'N A M E'
+    spacedOut = spacedOut.concat(hacker1[i]," "); 
+    spacedOut.trim();
+}console.log(spacedOut.toUpperCase());
 
 // Iteration 3.2 'Name' to 'emaN'
+
+let reverseName = "";
+for (let i=hacker1.length-1; i>=0; i--){
+    // Iteration 3.1 'Name' to 'N A M E'
+    reverseName = reverseName+hacker1[i]
+}console.log(reverseName);
 
 // Iteration 3.3 Lexicographic order
 
